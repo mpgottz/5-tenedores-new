@@ -50,7 +50,7 @@ const myAccountScreenStack = createStackNavigator({
 
 const RootStack = createBottomTabNavigator({
   Home: {
-    scree: HomeScreenStack
+    screen: HomeScreenStack
   }
 });
 
