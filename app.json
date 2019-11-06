@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "5-tenedores-app",
-    "slug": "5-tenedores-app",
+    "name": "5-tenedores",
+    "slug": "5-tenedores",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [

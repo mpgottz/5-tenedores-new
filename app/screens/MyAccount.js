@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 export default class MyAccount extends Component {
   render() {
-    return (
-      <View style={styles.viewBody}>
-        <Text>MyAccount screen...</Text>
-      </View>
-    );
+    <View style={style.viewBody}>
+      <Text>MyAccount Screens... </Text>
+    </View>;
   }
 }
 
