@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 
 export default class Search extends Component {
   render() {
-    <View style={style.viewBody}>
-      <Text>Search Screens... </Text>
-    </View>;
+    return (
+      <View style={styles.viewBody}>
+        <Text>Search Screens... </Text>
+      </View>
+    );
   }
 }
 
