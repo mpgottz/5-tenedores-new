@@ -13,6 +13,7 @@ export default class MyAccount extends Component {
       <View style={styles.viewBody}>
         <Text>Mi cuenta </Text>
         <Button title="Registro" onPress={() => this.goToScreen("Register")} />
+        <Button title="Login" onPress={() => this.goToScreen("Login")} />
       </View>
     );
   }

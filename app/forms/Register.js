@@ -14,29 +14,40 @@ export const RegisterStruct = t.struct({
 export const RegisterOptions = {
   fields: {
     name: {
-      label: "Nombre (*)",
-      placeholder: "Escribe un nombre y apellido",
-      error: "Nombre invalido",
-      template: inputTemplate
+      template: inputTemplate,
+      config: {
+        placeholder: "Escribe un nombre y apellido",
+        iconType: "material-community",
+        iconName: "account-outline"
+      }
     },
     email: {
-      label: "Email (*)",
-      placeholder: "Escribe un email",
-      error: "Email invalido"
+      template: inputTemplate,
+      config: {
+        placeholder: "Escribe un email",
+        iconType: "material-community",
+        iconName: "at"
+      }
     },
     password: {
-      label: "Contraseña (*)",
-      placeholder: "Escribe una contraseña",
-      error: "Contraseña invalida",
-      password: true,
-      secureTextEntry: true
+      template: inputTemplate,
+      config: {
+        placeholder: "Escribe una contraseña",
+        iconType: "material-community",
+        iconName: "lock-outline",
+        password: true,
+        secureTextEntry: true
+      }
     },
     passwordConfirmation: {
-      label: "Repetir contraseña (*)",
-      placeholder: "Repite una contraseña",
-      error: "Contraseña invalida",
-      password: true,
-      secureTextEntry: true
+      template: inputTemplate,
+      config: {
+        placeholder: "Repite una contraseña",
+        iconType: "material-community",
+        iconName: "lock-reset",
+        password: true,
+        secureTextEntry: true
+      }
     }
   }
 };
